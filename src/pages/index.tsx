@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { HomeContainer, Product } from '../styles/pages/home'
-import { GetStaticPaths, GetStaticProps } from 'next'
+import { GetStaticProps } from 'next'
 
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
